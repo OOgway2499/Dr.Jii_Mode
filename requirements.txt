@@ -1,0 +1,42 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+pydantic-settings
+pymongo
+psycopg2-binary
+alembic
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt==3.2.0
+python-dotenv
+redis
+celery
+
+# ML & NLP
+transformers
+torch
+sentence-transformers
+langchain
+langchain-community
+openai
+faiss-cpu
+spacy==3.7.2
+scispacy
+
+# Medical NLP
+medspacy
+negspacy
+
+# Document Processing
+pdfplumber
+python-docx
+Pillow
+pytesseract
+
+# Neo4j for Knowledge Graph
+neo4j
+psycopg2-binary
+
+# Monitoring
+prometheus-client
